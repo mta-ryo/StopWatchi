@@ -72,13 +72,10 @@ class ViewController: UIViewController {
     func hoge(){
     
         count = count + 0.1
-        //print(count)
         //上のカウント＿秒
         var scondsTmp = count
         let df1 = NSString(format: "%03.1f" , scondsTmp)
-        print(df1)
-        //let df1 = scondsTmp
-        //print(df1)
+  
         
         if(df1 == NSString(format: "%03.1f" , 60.0)){
             print("うえ")
